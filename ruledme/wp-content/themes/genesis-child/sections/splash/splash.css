@@ -1,0 +1,98 @@
+/**
+* homepage splash
+*/
+	.splash { background: rgba(0, 0, 0, 0) url("//www.ruled.me/wp-content/themes/genesis-child/sections/splash/homepage/img/hero.jpg") no-repeat scroll 0 100% / cover ; height: 564px; }
+	.splash__container { height: 100%; margin: 0 auto; padding: 150px 110px 0; text-align: center; width: 1049px; }
+	.splash .splash__h2 { color: #fff; font-size: 3.5rem; }
+	.splash .splash__h3 { color: #fff; font-size: 15px; margin-top: 25px; }
+	.splash__inputs { margin: 40px auto 25px; width: 570px; position: relative; }
+	.splash .splash__email { background: #fff none repeat scroll 0 0; border-radius: 30px; color: #606060;  height: 52px; text-indent: 30px; width: 100%; }
+	.splash .splash__button { background: #60c289 none repeat scroll 0 0; cursor: pointer; border-radius: 30px; color: #fff; height: 43.5px; padding: 0 37px; position: absolute; right: 5px; top: 4px; }
+	.splash .splash__h4 { color: #ababab; font-size: 13px; }
+
+	.mc4wp-alert {
+		color: #fff;
+		margin-top: 10px;
+	}
+
+	@media only screen and (max-width: 1069px)
+	{
+		.splash__container { width: 100%; }
+	}
+
+	@media only screen and (max-width: 900px)
+	{
+	.splash .splash__h2 { font-size: 3.1rem; }
+	}
+	@media only screen and (max-width: 800px){
+
+		.splash { height: 464px; }
+
+		.splash .splash__h2 { font-size: 2.7rem; }
+		.splash__container { padding: 80px 20px 0; }
+	}
+
+	@media only screen and (max-width: 610px)
+	{
+		.splash__inputs { width: 100%; }
+		.splash .splash__h2 { font-size: 2.3rem; }
+		.splash .splash__h3 { font-size: 12px; }
+
+	}
+
+	@media only screen and (max-width: 480px)
+	{
+
+		.splash .splash__button { height: 52px; position: relative; top: 10px; right: 0; width: 100%; }
+		.splash .splash__h2 { font-size: 2.0rem; }
+		.splash .splash__email { text-align: center; text-indent: 0px; }
+
+		.splash__container { padding: 60px 30px 0; }
+		.splash { height: 400px; }
+		.splash .splash__email, .splash .splash__button { height: 42px; }
+	}
+
+	@media only screen and (max-width: 395px)
+	{
+		.splash__container { padding: 40px 30px 0; }
+	}
+
+	@media only screen and (max-width: 435px)
+	{
+		.splash .splash__h2 { padding: 0 20px; }
+	}
+
+	/**
+	* CLX edit
+	*/
+	@media only screen and (max-width: 480px) {
+	  #mc4wp-form-1 > div.mc4wp-form-fields > input.splash__email {
+		text-align : left;
+		padding-left : 16px;
+		-webkit-appearance : none !important;
+		border-radius: 20px;
+	  }
+
+	  #mc4wp-form-1 > div.mc4wp-form-fields > input.splash__button {
+		font-size : 4.2vmin;
+		-webkit-appearance : none !important;
+	  }
+	}
+
+
+/* end of homepage splash */
+
+
+
+.splashStructure { padding: 20px; align-items: center; display: flex; height: 300px; justify-content: center; }
+.splashStructure h1 { font-weight: 600; color: #fff; text-align: center; }
+
+@media only screen and (max-width: 768px)
+{
+	.splashStructure h1 { font-size: 34px; }
+}
+
+@media only screen and (max-width: 360px)
+{
+	.splashStructure h1 { font-size: 24px; }
+}

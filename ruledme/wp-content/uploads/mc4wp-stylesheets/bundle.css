@@ -1,0 +1,359 @@
+/* bundled styles */
+/* form #35207 */
+.mc4wp-form-35207 label, 
+.mc4wp-form-35207 input, 
+.mc4wp-form-35207 textarea, 
+.mc4wp-form-35207 select, 
+.mc4wp-form-35207 button {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mc4wp-form-35207 {
+	display: block;
+	background-repeat: repeat;
+}
+
+.mc4wp-form-35207 input[type='radio'],
+.mc4wp-form-35207 input[type='checkbox'] {
+	margin-right: 6px;
+	display: inline-block
+}
+
+.join__container { background-color: #ffffff; width: 400px; margin: 0 auto; border-radius: 5px; overflow: hidden; box-shadow: 0 2px 14px 0 hsla(0,0%,60%,.6); }
+
+.join__header { padding: 30px; display: flex; flex-direction: column; position: relative; }
+.join__header::before { left: 0; top: 0; background-color: #4a9df9; position: absolute; height: 100%; width: 100%; content: ""; transform: rotate(-8deg) scale(2); transform-origin: 20% 90%; }
+.join__header-title { z-index: 1; color: #fff; font-weight: 600; font-size: 20px; }
+.join__header-subtext { z-index: 1; color: #ffffff85; font-size: 13px; font-weight: 600; padding: 10px 0; }
+
+.join__content { padding: 20px; margin-top: 30px;  }
+.join__inner { width: 94%; display: flex; flex-direction: column; justify-content: center; position: relative; margin: 0 auto; }
+.join__inner-input { outline: 0; border: 2px solid #d0d4d8; border-radius: 8px; padding: 10px; }
+.join__inner-input::placeholder { font-weight: 600;color: #7c7d7e; opacity: 1; }
+.join__inner-input:first-child { margin-bottom: 10px; }
+.join__inner-submit { cursor: pointer; outline: 0; position: absolute; right: -23px; background-color: #4a9df9; border: 0; height: 50px; width: 50px; border-radius: 30px; color: transparent; position: absolute;  content: ""; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfiAQMELy8GSTufAAABJ0lEQVQ4y5WTsS8EQRSHf7dCnIaQiETkSDQbdAoFre6iUUj4C/gLFBoF1ylIRCGhJpGLUrSSo6AShVwh5BIhucRGceE+xVlrd2Y2e18zOzvfe7PvzY7UFnS2I49zwGNWeZoTvoHDLPI8l4QU09UOlrglIqDbLedZo0qcU5fczwavmKzY5BF2CLDRoC8pT3BMAxcXcXmOc5qksRqqORa4sgjNxGy4pS9zb81X4TM2v26l9zSlglF5oC2NKR97dxZ9/SAlPv7luqNIzdjRT3Z+kzoA+0zyYugPthPoZZ1FRnmyVFRy/xLb1hbMhOueEVG3ZKmp4g54izb7eyrncAe8/4678nWkr0RLLTXMAlDGkyQK7PGcepPxgRt6lBUGqDKUWZckutJWfwD6aJzIGuf2/AAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAxOC0wMS0wM1QwNDo0Nzo0NyswMTowMFb9GBkAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMTgtMDEtMDNUMDQ6NDc6NDcrMDE6MDAnoKClAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg==); background-repeat: no-repeat; background-size: 20px 20px; background-position: 13px 16px; box-shadow: 0 2px 14px 0 hsla(0,0%,60%,.6); }
+
+@media only screen and (max-width: 500px){
+    .join__container { width: 100%;  margin-bottom: 20px; } 
+}
+
+.join__food-pic {   height: 300px;  background-image: url('https://www.ruled.me/wp-content/uploads/2018/01/mozztest.jpg');  background-size: cover; }
+
+/* form #29663 */
+.mc4wp-form-29663 label, 
+.mc4wp-form-29663 input, 
+.mc4wp-form-29663 textarea, 
+.mc4wp-form-29663 select, 
+.mc4wp-form-29663 button {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mc4wp-form-29663 {
+	display: block;
+	background-repeat: repeat;
+}
+
+.mc4wp-form-29663 input[type='radio'],
+.mc4wp-form-29663 input[type='checkbox'] {
+	margin-right: 6px;
+	display: inline-block
+}
+
+.form_section {
+    border: 2px solid rgba(245, 144, 10, 0.1);
+    padding: 20px 30px;
+    background: url('https://www.ruled.me/wp-content/uploads/2018/10/0eb045478e5e88f306c1e9dc0c66a683_badge_copy_2.png') no-repeat #fcfcfc;
+    background-position-x: 95%;
+    background-position-y: 15px;
+    border-radius: 6px;
+}
+
+.form_section>h2 {
+	font-size: 22px;
+	font-weight: 600;
+	max-width: 400px;
+	letter-spacing: .5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.usps {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+.usps li {
+	list-style: none!important;
+	background: url('https://www.ruled.me/wp-content/uploads/2018/10/1Nc.png') no-repeat;
+	padding-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-position-y: 8px;
+	font-size: 14px;
+	color: #1e1e1e;
+	font-weight: 500
+}
+
+div.nls_main {
+	text-align: initial;
+	padding: 0
+}
+div.nls--formContainer>input[type=submit] {
+	background: #f5900a;
+	border-bottom: 2px solid #d47b05!important;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius: 0;
+	position: initial;
+	letter-spacing: 1px;
+	padding: 12px 50px;
+	text-transform: uppercase;
+	margin: 0 10px;
+	border-top: 1px solid #f5900a;
+	color: #fff;
+	-webkit-appearance: none;
+	width: auto;
+        border-radius: 3px;
+}
+div.nls--formContainer>input[type=email] {
+	text-align: left;
+	font-weight: 200;
+	font-size: 14px;
+	border-radius: 0;
+	color: #b5b5b5;
+	cursor: pointer;
+	background: #fff;
+	border: 1px solid;
+	width: 285px;
+	padding: 12px 15px;
+        border-radius: 3px;
+}
+div.nls--formContainer {
+	display: initial;
+	position: initial;
+	width: auto
+}
+::-webkit-input-placeholder {
+	color: #676767!important
+}
+::-moz-placeholder {
+	color: #676767!important
+}
+:-ms-input-placeholder {
+	color: #676767!important
+}
+:-moz-placeholder {
+	color: #676767!important
+}
+@media only screen and (max-width:767px) {
+	div.nls--formContainer>input[type=submit] {
+		margin: 5px 0;
+		width: 100%
+	} 
+	div.nls--formContainer>input[type=email] {
+		width: 100%
+	}
+	.form_section>h2 {
+		text-align: center;
+		font-size: 25px
+	}
+	.form_section {
+		background-size: 150px;
+		background-position-x: 105%;
+		background-position-y: 100px;
+		margin: 0;
+		padding: 20px 15px
+	}
+}
+@media only screen and (max-width:400px) {
+	.form_section>h2 {
+		font-size: 23px
+	}
+}
+
+
+
+asdasdasd
+
+/* form #26846 */
+.mc4wp-form-26846 label, 
+.mc4wp-form-26846 input, 
+.mc4wp-form-26846 textarea, 
+.mc4wp-form-26846 select, 
+.mc4wp-form-26846 button {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mc4wp-form-26846 {
+	display: block;
+	background-repeat: repeat;
+}
+
+.mc4wp-form-26846 input[type='radio'],
+.mc4wp-form-26846 input[type='checkbox'] {
+	margin-right: 6px;
+	display: inline-block
+}
+
+#text-3,#text-4,#text-6,#text-7>.widget-wrap:nth-child(1),.nls_text,div.nls_icon,div.social_counter{display:none; }
+.rightSidebar_title{font-size:19px;font-weight:lighter;padding-top:10px;text-transform:none;color:#fff;letter-spacing:1px;}
+.rightSidebar_info>span{line-height:35px}
+
+
+.rightSidebar_form input[type=email] {
+    text-align: left;
+    font-weight: 200;
+    font-size: 14px;
+    border-radius: 0;
+    background: #f7f7f7;
+    border: 0!important;
+}
+
+div.rightSidebar_input form p{margin-bottom:10px!important}
+
+.bayes{margin-left:-20px;margin-right:-20px;background:#2686c0;padding:10px 0 0;color:#fff;position:relative}
+.bayes p{font-size:11px;margin-bottom:-10px}
+.bayes>span:nth-child(3){font-size:20px;padding-right:10px}
+.bayes>span:nth-child(4){font-size:14px}
+.bayes>i{position:absolute;top:-10px;left:45%;width:0;height:0;border-left:15px solid transparent;border-right:15px solid transparent;border-bottom:10px solid #2686c0}
+
+
+.rightSidebar_form {
+    background: #3ca2e0;
+    padding: 15px 20px 0;
+    text-align: center;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+
+.rightSidebar_info p { font-size: 16px;     padding: 5px 0; }
+.rightSidebar_info > strong{color:#eb974e;font-weight:700}
+
+.rightSidebar_info {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSidebar_form input {
+    border: medium none;
+    color: #fff;
+    cursor: pointer;
+    padding: .857rem;
+    text-align: center;
+    width: 100%;
+    background: #f5900a;
+    border-bottom: 3px solid #d47b05!important;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+
+
+.bayes p:nth-of-type(2) {
+    font-size: 13px;
+}
+
+
+.rightSidebar_info > p {
+    font-size: 16px;
+}
+
+#mc4wp-form-1 > div.mc4wp-form-fields > p:nth-child(1) > input[type="email"]{
+color: black;
+}
+
+/* form #30187 */
+.mc4wp-form-30187 label, 
+.mc4wp-form-30187 input, 
+.mc4wp-form-30187 textarea, 
+.mc4wp-form-30187 select, 
+.mc4wp-form-30187 button {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.mc4wp-form-30187 {
+	display: block;
+	background-repeat: repeat;
+}
+
+.mc4wp-form-30187 input[type='radio'],
+.mc4wp-form-30187 input[type='checkbox'] {
+	margin-right: 6px;
+	display: inline-block
+}
+
+.mc4wp-form-30187 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mc4wp-form-30187 {
+    background: rgba(0, 0, 0, 0.7) url("https://www.ruled.me/wp-content/uploads/2017/03/Ham-Ricotta-and-Spinach-Breakfast-Casserole-900x600.png") repeat scroll 0 0 / cover!important ;
+    padding: 60px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.mc4wp-form-30187 h2 {
+    color: #fff;
+    font-weight: 600;
+}
+
+.mc4wp-form-30187 h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.mc4wp-form-30187 .button__main {
+    border-radius: 3px 0 0 3px;
+    font-family: inherit;
+    height: 37px;
+    text-indent: 20px;
+}
+
+.mc4wp-form-30187 .button__submit {
+    background: #e8b689 none repeat scroll 0 0;
+    border-radius: 0 3px 3px 0;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 600;
+    height: 37px;
+    padding: 0 20px;
+    position: relative;
+    right: 4px;
+}
+
+.mc4wp-form-30187 .button__submit:hover { cursor: pointer; }
+
+@media only screen and (max-width: 769px)
+{
+.mc4wp-form-30187 h2 {  font-size: 20px; }
+.mc4wp-form-30187 h3 { color: #fff; font-size: 14px; }
+}
+
+@media only screen and (max-width: 360px)
+{
+.mc4wp-form-30187 .button__main { border-radius: 3px; text-align: center; width: 100%; }
+
+.mc4wp-form-30187 .button__submit {
+    border-radius: 3px;
+    margin-top: 7px;
+    width: 100%;
+    left: 0;
+}
+
+}
+

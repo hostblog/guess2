@@ -1,0 +1,200 @@
+/* general css for the home page only */
+body { background: #fff; }
+
+/* what is keto diet with the brocolli */
+.wikd { display: inline-block; width: 100%; text-align: center; background: #fff; position: relative; }
+.wikd .splash__brocolli { bottom: 0; position: absolute; right: 0; }
+.wikd__container {  display: inline-block; padding: 80px 20px; width: 1069px; }
+.wikd__left { float: left; text-align: left; width: 50%; }
+.wikd__left .wikd__title { font-size: 36px; }
+.wikd__left  .wikd__text { margin-bottom: 30px; color: #666666;  font-size: 15px; width: 85%; }
+.wikd__right { float: right; padding: 11% 5% 5%; width: 50%; }
+
+.wikd__button { border: 2px solid #ecb888; border-radius: 30px; color: #ecb888; display: inline-block; margin-bottom: 45px; padding: 10px 20px; }
+
+@media only screen and (max-width: 1069px)
+{
+	.wikd__container { width: 100%; }
+}
+
+@media only screen and (max-width: 768px)
+{
+	.wikd__left {
+		width: 100%; text-align: center;
+	}
+	.wikd__right {
+		width: 100%;
+	}
+	.wikd__left .wikd__text {
+		width: 100%;
+	}
+	.wikd .splash__brocolli {
+		opacity: 0.3;
+	}
+}
+
+@media only screen and (max-width: 610px)
+{
+	.wikd__container { padding: 50px 20px; }
+	.wikd__left .wikd__text { font-size: 12px; }
+	.wikd__left .wikd__title { font-size: 26px; }
+}
+
+
+/* divider */
+.devider { background: #ffffff url("//www.ruled.me/wp-content/themes/genesis-child/sections/homepage/img/divider.png") no-repeat scroll 0 0 / 100% 100%; height: 160px; width: 100%; }
+@media only screen and (max-width: 610px)
+{
+
+.devider {
+    background-size: 100% 75%;
+    height: 155px;
+}
+
+}
+@media only screen and (max-width: 320px)
+{
+	.devider {
+		height: 80px;
+	}
+}
+
+/* your guide to keto */
+
+.a-picker { width: 100%; }
+.a-picker .a-picker__inside { position: relative; text-align: center; margin: 0 auto; width: 1260px; }
+.a-picker .swiper-container { width: 1130px; }
+
+.a-picker .a-picker__container { padding: 40px 0; }
+.a-picker .a-picker__title { text-align: center; color: #626262; font-size: 27px; padding: 0 20px; }
+.a-picker .a-picker__description { color: #4a4a4a; font-size: 15px; margin: 0 auto; width: 70%; }
+
+.a-picker__image { font-size: 0; width: 100%; }
+.a-picker__image > img { width: 100%; }
+.a-picker__inner { border-radius: 4px; box-shadow: 0 0 7px 1px #e7e6e6; width: 250px; }
+.a-picker__data { min-height: 99px; text-align: center; padding: 13px; }
+.a-picker__data > h2 { color: #5c5c5c; font-size: 16px; }
+.a-picker__data > h3 { color: #909090; font-size: 11.5px; }
+.swiper-slide { padding: 10px; width: 288px!important; }
+
+.a-picker-left {  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAPFBMVEUAAADruIrst4jvt4fsuIjruIjjqo7qv4DntobtuIfouYvtuIjsuYfms4DsuIjsuIjbtpLsuIjruokAAACxeN0kAAAAE3RSTlMAMssg7sMJDBXCC8HACr++B+EaoAdwYwAAAAFiS0dEAIgFHUgAAAAJcEhZcwAADdcAAA3XAUIom3gAAAAHdElNRQfgDAwTLQKF8sVxAAAAP0lEQVQoz2NgQAOMTMwM2AAjCysbDnH24SjOgUMctwTQKE7cMly4ZLjJkOHBLcOLS4aPDBl+3DICOGQEhcA0AAxYAiPRlYBDAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE2LTEyLTEyVDE5OjQ1OjAyKzAxOjAwehTzzAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxNi0xMi0xMlQxOTo0NTowMiswMTowMAtJS3AAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC'); border: 2px solid #ecb888; border-radius: 75%; color: #ecb888; cursor: pointer; font-size: 20px; font-weight: 400; height: 40px; left: 0; position: absolute; text-align: center; top: 47%; width: 40px; background-repeat: no-repeat; background-position: center center; background-size: 43% auto; }
+.a-picker-right { background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAVFBMVEUAAADruonst4jruIrbtpLsuIjsuIjms4DsuIjsuYfouYvtuIjtuIfqv4DruIjys4zsuIjwtIfruIjutYjut4vsuIjpuIjquorsuIjqtofsuIgAAABHEfQrAAAAG3RSTlMAGssyB77uCr/AC8HCDMMU6hHrLS7sLzDtMeEwO1OlAAAAAWJLR0QAiAUdSAAAAAlwSFlzAAAN1wAADdcBQiibeAAAAAd0SU1FB+AMDBMqHDC8btUAAABdSURBVCjPndBBDoAgDERRUIogKopW0fsf1Lh2ZkOX/yVtUmO+sV1v4DjxRAYuoUEik5FLapCJycxl8ZnAuuFVZcfHSU/lwF1xj3riJ5Ie9MK94i64O6k3fIR9fv0FtvIECSPIEocAAAAldEVYdGRhdGU6Y3JlYXRlADIwMTYtMTItMTJUMTk6NDI6MjgrMDE6MDB+nbCGAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDE2LTEyLTEyVDE5OjQyOjI4KzAxOjAwD8AIOgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII='); border: 2px solid #ecb888; border-radius: 75%;color: #ecb888; cursor: pointer; font-size: 20px; font-weight: 400; height: 40px; right: 0; position: absolute; text-align: center; top: 47%; width: 40px; background-repeat: no-repeat; background-position: center center; background-size: 43% auto; }
+
+.a-picker__seemore { border: 2px solid #ecb888; border-radius: 30px; color: #ecb888; display: inline-block; margin: 50px 0; padding: 10px 20px; }
+
+@media only screen and (max-width: 1276px)
+{
+	.a-picker { padding: 0 10px; }
+	.a-picker .a-picker__inside { width: 100%!important; }
+	.a-picker .swiper-container { width: 90%; }
+}
+
+@media only screen and (max-width: 1200px)
+{
+	.swiper-pagination { position: relative; top: 5px; }
+	.swiper-pagination-bullet-active { background: #e67e22; }
+}
+
+@media only screen and (max-width: 768px)
+{
+	.a-picker__description { font-size: 12px!important; padding: 0 20px; width: 100%!important; }
+	.a-picker .swiper-container, .a-picker .a-picker__inside { width: 100%; }
+	.a-picker-left, .a-picker-right { display: none; }
+
+}
+
+
+
+/* keto recipes */
+.rcp { text-align: center; background-image: linear-gradient(rgba(252, 252, 252, 0.90), rgba(252, 252, 252, 0.90)), url("//www.ruled.me/wp-content/themes/genesis-child/sections/homepage/img/keto-diet.png"); background-repeat: no-repeat; background-size: cover; display: inline-block; height: auto; padding: 60px 50px; width: 100%; }
+.rcp__con { margin: 0 auto; text-align: center; width: 1080px; }
+.rcp__con > h2 { color: #4e4e4e;  }
+.rcp__con > h3 { color: #4a4a4a; font-size: 15px; margin: 0 auto; width: 55%; }
+
+.rcp__five { display: inline-block; margin-top: 50px; width: 100%; position: relative; }
+
+.rcp__two:nth-of-type(1) { float: left; width: 32%; }
+.rcp__one { float: left; width: 36%; }
+.rcp__two:last-child { float: right; width: 32%; }
+.rcp__small:nth-of-type(1) { margin-bottom: 3%; }
+.rcp__small, .rcp__bigger { position: relative; }
+.rcp__title { color: #fff; font-size: 19px; position: absolute; text-align: center; top: 45%; width: 100%; }
+.rcp__two:nth-of-type(1) .rcp__small:nth-of-type(2) h2, .rcp__two:nth-of-type(3) .rcp__small:nth-of-type(2) h2, .rcp__two:nth-of-type(3) .rcp__small:nth-of-type(1) h2 { top: 35%; }
+.rcp__mobile--recipe { display: none; }
+
+@media only screen and (max-width: 1180px)
+{
+	.rcp__con { width: 100%; }
+	.rcp__two:nth-of-type(1) { float: left; position: absolute; width: 32%; }
+	.rcp__one {  left: 32%; padding-left: 1.9%; padding-right: 1.9%; position: absolute; width: 36%; }
+
+}
+
+@media only screen and (max-width: 768px)
+{
+	.rcp__desktop--recipe { display: none; } /* this here is to hide the mug cake image thats bigger in height then the other four images */
+	.rcp__mobile--recipe { display: inline-block;  border-radius: 4px; }
+	.rcp__two:nth-of-type(1) { position: relative; width: 100%; }
+	.rcp__one { padding: 0; margin-top: 3%; left: 0; position: relative; width: 100%; }
+	.rcp__two:last-child { float: right; margin-top: 3%; width: 100%; }
+	.rcp__con > h3 { width: 100%; }
+	.rcp__con > h2 { margin-bottom: 30px; }
+	.rcp { padding: 50px 20px; }
+
+}
+
+.rcp__seemore { background: #252525 none repeat scroll 0 0; border-radius: 30px; color: #fff; display: inline-block; margin-top: 40px; padding: 10px 20px; }
+
+/* book section */
+.book { background: #fff; display: inline-block; padding: 90px 50px 0; text-align: center; width: 100%; }
+.book_container { margin: 0 auto; width: 800px; }
+.book__left { float: left; width: 45%; }
+.book__image > img { height: 406px; width: 254px; }
+.book__left > .book__getit a { background: #cd4335 none repeat scroll 0 0; border-radius: 30px; color: #fff; display: inline-block; margin-bottom: 30px; padding: 10px 17px; }
+.book__left p { margin-bottom: 20px; color: #666; }
+.book__right { float: right; padding-left: 12px; padding-top: 25px; text-align: left; width: 55%; }
+.book__right li { margin-bottom: 15px; color: #666; }
+.book__icons { float: left; height: 28px; margin-right: 10px; width: 24px; }
+.book__right li:nth-of-type(1) .book__icons { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAMAAABMOI/cAAAAk1BMVEUAAAD0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBPnyTuPAAAAMXRSTlMAgZjgSGjuubAxNwRbJtJ5COPYQ8nAtqifimxTIujFrY5vSyseEg37lWUWqk8+OsxyaylmwQAAARVJREFUKM+d0MdygzAQgOEVwgKhSu/FGHB38v5PFyZgghMu8X/R4VvN7Cz8P1RiQvAqIiYwTEA7WGU7v0GwbeAk2QThXa7ZFqR7EPIP8DgJFFByihuw9yZbwOZtVArLOzsEbC/gCyQ+aHI8PoDh8UfkLHC/MrBbDLBLoaIuWwBSGbsHHAd1N+B7vd5KOxQK5wLQJui8eZKGV8UrFHmGkqgigmSU/YD/ERiNaqmwTAtFrjHMMLg5FG7Z+dVN9wAsUjP0x9LI8keX++eDz5Uk2QyAB6rqUGLXC6xT3sfOEwwOqzTRTzh4bAWfaBzdT+s2J1jypR5HbRkiOiYNDVPco99vkVpTWAkG3S2sL/Bar0KMw9SE9/oClMsTxbZ7BXMAAAAASUVORK5CYII=') }
+.book__right li:nth-of-type(2) .book__icons { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAMAAABMOI/cAAAAk1BMVEUAAAD0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBPnyTuPAAAAMXRSTlMA2AZQCoh2KR3UsKGYjoJiGRLq0MrEv7u0PTkt+6h6XEImEPLk3puUcmplVUV/bUk1uqOtRgAAAR9JREFUKM+d0NeOgzAQheEzxmB67y2Q3rPv/3RLZFvZ5TLfjTX6JQ8Y3+tq1+NYMC8N8SHImDa5AOCNoBYaowngd4cjOoKfz1D4sQJEZJ7y2DFOeXjR4fFgOJVDGViOGUyxaejgdsC4qwf3vEuwvXutWoBCMNwGIOqDW5leS1sG308Phyu9J7LDBIwg/VBt82IHMMsDYqP11K+R8a7903fSZpPvb1Ykw8YCtjbvszAhBDNQvWSw0qrKqqLf1/sD1XTMM1+G59W2gbhly4cum5vYMNVVI/6LLHm+glXQy1tvFfSLzO4q+I08k2J2XVd8wtCpp3IwC8E+oYwhkSCibAst4zpwYzGhsdUMpejMxQir0VcrlxDSeuSBQ3/4Cb7yC6qcEg6n5UHMAAAAAElFTkSuQmCC') }
+.book__right li:nth-of-type(3) .book__icons { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAMAAABMOI/cAAAAilBMVEUAAAD0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBOKriGDAAAALXRSTlMAgIgQ+PCx4QmPacemlHtfDuqtmHBQSSDy5trTwbmgl0I4MRiHW1YSmnRiKwdzO0ujAAAA10lEQVQoz6XSt5aDMBRF0SMJEDma6ADOk/T/vzeNWYNUek67i1fcB+8U1sbu/oKv5Kq2ReIFQgLhBXj+XLkit9BV074ki6elsuHQksY0O936Nvg9u4ZGe5MD4zd5RJR28WjDfCzGhUUXx9mGMPMewMPLQhu4aAD0BQdavwRKv3VB1xEQ1dqB0MQBEBTm34AfNMBHULnQZT3QZ50Lm/5g8KzMCvnxqdJcDXOqkvt2wbMnxX6Hn5w4pEKIZAXON7lCLaW89ZuDp1wNn8aYs/tCuTGVKlXJ+/0CEzEQ2bgqx70AAAAASUVORK5CYII=') }
+.book__right li:nth-of-type(4) .book__icons { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAMAAABMOI/cAAAAmVBMVEUAAAD0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBP0mBOND7z/AAAAMnRSTlMADPH897WS0Abb08fAll8T6+be18uce0QwEa6noIRyb0lAJyEbGIp4ZVVOOzYq4bx9dtfURokAAAEFSURBVCjPnZBVcgNBDEQ1uMxoZrYDff/DxbtOFr/i99Ga6pZUU6J32eZzJ+TOPN/27EIBH5+eVrEQ2b6xmYvoFLzeBy3l5dcPUumb7fTekbdXv8031CWww3pbjhv12WFVFdugIbaqlJ9GgeaVJnoUuHGls2joT8S0KhsUg2CGe11VfOj5GWTxmjSMSWtfDOlF0Kw+Q5xX5VGuV14Cd0tsIe06UUsi8whAWFO/ntuI41NNfg7OKbxryZqNU+spC1gCQEAd5pzMDNyYXdfwOz7jTvNOwrINFp22R8S//76toczOtV1wpZcrRku4jLrcszQEnHKNLxrBigQWLEZjTN9LhbGjf/MD9toTPpegANsAAAAASUVORK5CYII=') }
+.book__right li:nth-of-type(5) .book__icons { background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAcCAMAAABMOI/cAAAAllBMVEUAAAD1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niH1niElFSnnAAAAMnRSTlMA+kO8ltHxLg8KBRwoJeCRAtnFb2wfFcCITjwy6bixoZx1ZUpANy3szcqqqH95XlYN3Cwxcp0AAADrSURBVCjPtc/XkoJAEEDRi46KyEiQjFnAsKb9/59bWAYEffa8Td2p7mq+IzgPo8zmzSzVA22wG7oHOvzbeawNpmMd4lVEa3eMcn1YB57ComZshARUqN73OqgfbSBfBpQeF94ClgdMnewjZCEQr3mFpzpoqYPYd8JI0SS4iQqrgZ1OlMIGR6qwjkH6s3++LIOpwmHk25u5VnOq0e39v6Z9EUYlPUF0o+HNTX4Epf0WcpfWoimrA9jhvl+2gsfJAFKt6Bch1F5PmJ2yLNhem6XaHSWwXMlLEoaLRPqT2DpeDXoSy3Xmo7U34wv+AIkFEDZ6cn0rAAAAAElFTkSuQmCC') }
+.book_description { font-size: 15px; margin-bottom: 25px; }
+.book__title, .book_description { color: #666f;  }
+
+@media only screen and (max-width: 900px)
+{
+	.book_container { width: 100%; }
+}
+
+@media only screen and (max-width: 768px)
+{
+	.book { padding: 50px 20px;	}
+	.book_container { width: 100%; }
+	.book__right {
+		margin-bottom: 30px;
+	}
+
+	.book__image > img { height: auto; width: 77%; }
+	.book_description { font-size: 14px; }
+	.book__right li { font-size: 13px; }
+
+}
+
+@media only screen and (max-width: 600px)
+{
+	.book__title, .book_description { text-align: center; }
+	.book { padding: 20px 20px;	}
+	.book__right { width: 100%; }
+	.book__left { width: 100%; }
+	.book__image { float: left; width: 50%; }
+	.book__getit { float: left; padding-top: 6%; width: 50%; }
+	.book__left a { font-size: 12px; }
+	.book__left p { font-size: 13px; }
+}
+
+@media only screen and (max-width: 320px)
+{
+	.book__title { font-size: 24px; }
+}
