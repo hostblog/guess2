@@ -100,7 +100,7 @@ table{font:normal 12px/17px Arial, Arial, Helvetica, sans-serif; margin:0; paddi
 
 	height:85px;
 
-	background:url(/images/bg_footer.jpg) repeat-x;
+	background:url(../images/bg_footer.jpg) repeat-x;
 
 }
 
@@ -118,7 +118,7 @@ table{font:normal 12px/17px Arial, Arial, Helvetica, sans-serif; margin:0; paddi
 
 {
 
-	background:url(/images/bg_s.jpg) repeat top center;
+	background:url(../images/bg_s.jpg) repeat top center;
 
 	margin:0 auto;
 
@@ -172,7 +172,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 		ul.menu a.menu-active{
 
-			background:url(/images/bg_menu_hover.jpg) no-repeat; line-height:54px; color:#FFFFFF; width:106px; padding:0 0px 0px 0px;font-weight:bold; clear:both
+			background:url(../images/bg_menu_hover.jpg) no-repeat; line-height:54px; color:#FFFFFF; width:106px; padding:0 0px 0px 0px;font-weight:bold; clear:both
 
 		}
 
@@ -226,7 +226,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	font:bold 14px Arial, Helvetica, sans-serif;
 
-	background:url(/images/8_left_menu.jpg) no-repeat;
+	background:url(../images/8_left_menu.jpg) no-repeat;
 
 	height:36px;
 
@@ -244,7 +244,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	font:normal 12px Arial, Helvetica, sans-serif;
 
-	background:url(/images/5_left_menu.jpg) repeat-y;
+	background:url(../images/5_left_menu.jpg) repeat-y;
 
 	text-decoration:none;
 
@@ -254,7 +254,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 {
 
-		background:url(/images/2_left_menu.jpg) no-repeat;
+		background:url(../images/2_left_menu.jpg) no-repeat;
 
 		height:5px;
 
@@ -268,7 +268,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	line-height:32px;
 
-	background:url(/images/bg_menu_left.jpg) no-repeat center top;
+	background:url(../images/bg_menu_left.jpg) no-repeat center top;
 
 	width:189px;
 
@@ -294,7 +294,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	line-height:32px;
 
-	background:url(/images/bg_left_menu_hover.jpg) no-repeat center top;
+	background:url(../images/bg_left_menu_hover.jpg) no-repeat center top;
 
 	width:189px;
 
@@ -318,7 +318,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	padding-left:25px;
 
-	background:url(/images/bg_left_menu_sub.jpg) no-repeat center top;
+	background:url(../images/bg_left_menu_sub.jpg) no-repeat center top;
 
 }
 
@@ -340,7 +340,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	padding-left:25px;
 
-	background:url(/images/bg_left_menu_sub.jpg) no-repeat center top;
+	background:url(../images/bg_left_menu_sub.jpg) no-repeat center top;
 
 	color:#116AB4;
 
@@ -400,7 +400,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	background:none;
 
-	background:url(/images/8_search.jpg) repeat-x;
+	background:url(../images/8_search.jpg) repeat-x;
 
 	height:22px;
 
@@ -658,7 +658,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	color:#FFFFFF;
 
-	background:url(/images/left_8.jpg) no-repeat center;
+	background:url(../images/left_8.jpg) no-repeat center;
 
 	height:31px;
 
@@ -684,7 +684,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	color:#000000;
 
-	background:url(/images/left_bg_all.jpg) no-repeat;
+	background:url(../images/left_bg_all.jpg) no-repeat;
 
 	width:191px;
 
@@ -714,7 +714,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	line-height:30px;
 
-	background:url(/images/left_bg_all.jpg) no-repeat;
+	background:url(../images/left_bg_all.jpg) no-repeat;
 
 	margin-left:2px;
 
@@ -928,7 +928,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	color:#FFFFFF;
 
-	background:url(/images/bg_other.jpg) no-repeat center;
+	background:url(../images/bg_other.jpg) no-repeat center;
 
 	height:27px;
 
@@ -1050,7 +1050,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	text-decoration:none;
 
-	background:url(/images/2_bg.jpg) repeat-x;
+	background:url(../images/2_bg.jpg) repeat-x;
 
 	height:35px;
 
@@ -1072,7 +1072,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	text-decoration:none;
 
-	background:url(/images/8_home_type.jpg) no-repeat;
+	background:url(../images/8_home_type.jpg) no-repeat;
 
 	height:35px;
 
@@ -1409,7 +1409,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	padding-bottom:20px;
 
-	background:url(/images/bg_news_h.jpg) repeat-x;
+	background:url(../images/bg_news_h.jpg) repeat-x;
 
 	max-height:300px;
 
@@ -1537,7 +1537,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	color:#333333;
 
-	background:url(/images/images_home.jpg) no-repeat;
+	background:url(../images/images_home.jpg) no-repeat;
 
 	height:28px;
 
@@ -1585,7 +1585,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 .all_gal_type{
 
-	background:url(/images/bg_gall.jpg) no-repeat;
+	background:url(../images/bg_gall.jpg) no-repeat;
 
 	width:221px;
 
@@ -1659,7 +1659,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	text-transform:uppercase;
 
-	background:url(/images/bg_title_ha.jpg) no-repeat;
+	background:url(../images/bg_title_ha.jpg) no-repeat;
 
 	height:39px;
 
@@ -1681,7 +1681,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	float:left;
 
-	background:url(/images/bg_ha_right.jpg) no-repeat;
+	background:url(../images/bg_ha_right.jpg) no-repeat;
 
 	width:131px;
 
@@ -1779,7 +1779,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	text-transform:uppercase;
 
-	background:url(/images/bg_tkb.jpg) no-repeat;
+	background:url(../images/bg_tkb.jpg) no-repeat;
 
 	height:48px;
 
@@ -1797,7 +1797,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	text-transform:uppercase;
 
-	background:url(/images/bg_tieudiem.jpg) no-repeat;
+	background:url(../images/bg_tieudiem.jpg) no-repeat;
 
 	height:30px;
 
@@ -1955,7 +1955,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	text-decoration:none;
 
-	background:url(/images/bg_weblink.png) no-repeat;
+	background:url(../images/bg_weblink.png) no-repeat;
 
 	width:309px;
 
@@ -1971,7 +1971,7 @@ h1,h2,h3,h4,p{ font:normal 12px/22px Arial, Arial, Helvetica, sans-serif; margin
 
 	text-decoration:none;
 
-	background:url(/images/bg_support.png) no-repeat;
+	background:url(../images/bg_support.png) no-repeat;
 
 	width:309px;
 
