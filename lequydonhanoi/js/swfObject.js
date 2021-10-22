@@ -1,0 +1,1 @@
+No Content: http://lequydonhanoi.edu.vn/js/swfObject.js

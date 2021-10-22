@@ -1,0 +1,96 @@
+#container {
+	width:998px;
+	position:relative;
+	height:343px;
+	z-index:0;
+}
+
+#example {
+	width:998px;
+	height:343px;
+	position:relative;
+	z-index:0;
+}
+
+#ribbon {
+	position:absolute;
+	z-index:101;
+	bottom:0px;
+	display: block;
+	background: url(/images/new-ribbon.png) no-repeat left top;
+	width:998px; height:343px;
+}
+
+#slides {
+	position:absolute;
+	background:#FFFFFF;
+}
+
+.slides_container {
+	width:998px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+.slides_container a {
+	width:960px;
+	height:343px;
+	display:block;
+}
+
+.slides_container a img {
+	display:block;
+}
+
+#slides .next,#slides .prev {
+	position:absolute;
+	width:65px;
+	height:55px;
+	display:block;
+	z-index:300;
+}
+
+#slides .next {
+	left:915px;
+}
+
+.pagination {
+	position:absolute;
+	right:500px;
+	bottom:-5px;
+	z-index:500;
+	display:block;
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+	z-index:500;
+}
+
+.pagination li a {
+	display:block;
+	width:17px;
+	height:0;
+	padding-top:17px;
+	background-image:url(/images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -18px;
+}
+
+#container a:link,#container a:visited {
+	color:#599100;
+	text-decoration:none;
+}
+
+#container a:hover,#container a:active {
+	color:#599100;
+	text-decoration:underline;
+}

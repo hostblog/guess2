@@ -1,0 +1,30 @@
+#popupContact{
+	display:none;
+	font-size:12px;
+	z-index:999999;
+	border:1px #000000 solid;
+}
+#backgroundPopup{
+	background:#333333;
+	border:1px solid #CECECE;
+	display:none;
+	height:100%;
+	left:0;
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:99999;
+}
+#popupContactClose{
+	color:#FFFFFF;
+	font-weight:bold;
+}
+#popupContactClose:hover{
+	text-decoration:underline;
+}
+.popup_close{
+	height:30px;
+	background:#161616;
+	line-height:30px;
+	padding-right:10px;
+}
