@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "adm-icon";
+  src: url("../fonts/adm-icon.eot");
+  src: url("../fonts/adm-icon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/adm-icon.woff") format("woff"),
+       url("../fonts/adm-icon.ttf") format("truetype"),
+       url("../fonts/adm-icon.svg#adm-icon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "adm-icon";
+    src: url("../fonts/adm-icon.svg#adm-icon") format("svg");
+  }
+}
+
+.adm-icon {
+	display: inline-block;
+    font-family: 'adm-icon';
+	font-style: normal;
+    line-height: inherit;
+    color: inherit;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.adm-icon:before, .adm-icon:after {
+	display: inline-block;
+}
+
+.ic-cart:before { content: "\f100"; }
+.ic-cart-bag:before { content: "\f101"; }
+.ic-checkbox:before { content: "\f102"; }
+.ic-checkbox-2:before { content: "\f103"; }
+.ic-compare:before { content: "\f104"; }
+.ic-compare-o:before { content: "\f105"; }
+.ic-email:before { content: "\f106"; }
+.ic-email-o:before { content: "\f107"; }
+.ic-facebook:before { content: "\f108"; }
+.ic-fax:before { content: "\f109"; }
+.ic-google-plus:before { content: "\f10a"; }
+.ic-heart:before { content: "\f10b"; }
+.ic-heart-o:before { content: "\f10c"; }
+.ic-map:before { content: "\f10d"; }
+.ic-map-search:before { content: "\f10e"; }
+.ic-next:before { content: "\f10f"; }
+.ic-phone:before { content: "\f110"; }
+.ic-prev:before { content: "\f111"; }
+.ic-printer:before { content: "\f112"; }
+.ic-radiobox:before { content: "\f113"; }
+.ic-radiobox-2:before { content: "\f114"; }
+.ic-search:before { content: "\f115"; }
+.ic-search-o:before { content: "\f116"; }
+.ic-tel:before { content: "\f117"; }
+.ic-tel-2:before { content: "\f118"; }
+.ic-tel-o:before { content: "\f119"; }
+.ic-twitter:before { content: "\f11a"; }
+.ic-user:before { content: "\f11b"; }
+.ic-users:before { content: "\f11c"; }
+.ic-youtube:before { content: "\f11d"; }
