@@ -1,0 +1,69 @@
+#yt_header{
+    border: 1px solid #009355;
+}
+.banner {
+    /*height: 486px;*/
+    /*height: 388px;*/
+    height: 470px;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+#home_booking_form .datxe {
+    z-index: 10;
+}
+.datxe {
+    position: absolute;
+    bottom: 40px;
+    /* background-color: rgba(255, 255, 255, 0.9); */
+    width: 82%;
+    z-index: 1;
+    right: 8%;
+    margin: 0 auto;
+    color: #848484;
+    padding-bottom: 10px;
+    left: 3.5%;
+    top: 170px;
+    /*top: 270px;*/
+}
+.tab-content>.active {
+    display: block;
+}
+.hide {
+    display: none!important;
+}
+.padding_top {
+    padding-top: 10px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.custom-combobox-input {
+    margin: 0;
+    padding: 8px 10px 9px;
+    border-radius: 0px;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #dedede;
+}
+.padding_top {
+    padding-top: 10px;
+}
+.btn_blue, .btn_blue_outline:hover {
+    color: #fafafa;
+    background-color: #0288d1;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}

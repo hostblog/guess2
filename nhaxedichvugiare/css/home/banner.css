@@ -1,0 +1,554 @@
+/*@import url("https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/css/bootstrap-datepicker3.css");*/
+#booking-car{
+    opacity: 1;
+    margin-top: 20px;
+    background: #F9F9F9;
+    border-radius: 7px 7px 7px 7px;
+}
+#form-date{
+    padding: 0;
+    padding-right: 10px;
+}
+#form-time{
+    padding: 0;
+}
+.nav-tabs > li {
+    width: 100%;
+}
+#cainput_date{
+    padding-left: 10px !important;
+}
+#label-booking li.active a.active{
+    background: #F5AA06;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+}
+#send-order {
+    width: 100%;
+    background: #009355;
+    color: #fff;
+    border: 1px solid #009355;
+}
+#home-tab{
+    border: none;
+    border-radius: 5px 0px 0px 0px;
+}
+#profile-tab {
+    border: none;
+    border-radius: 0px 5px 0px 0px;
+    font-weight: bold;
+}
+#home-tab {
+    font-weight: bold;
+}
+
+#content-booking{
+    float: right;
+    /*margin: 0 auto;*/
+    /*width: 54%;*/
+    width: 100%;
+    margin-right: 10px;
+}
+
+#label-booking li a {
+    text-align: center;
+}
+#myTabContentCar{
+    padding: 15px 15px;
+    margin-top: 40px;
+}
+.fa-map-marker.mpick {
+    color: #0288d1;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.fa-map-marker.mdrop {
+    color: red;
+    font-size: 20px;
+    margin-top: 4px;
+}
+.input-group-addon {
+    border-radius: 0px 0px !important;
+}
+.custom-combobox-input {
+    padding: 8px 5px 8px !important;
+}
+
+/*date picker*/
+.rw-date-time-picker{
+    border-radius: 5px 5px 5px 5px;
+    width: 300px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    padding: 10px 10px;
+    background: #baff00;
+}
+#pickupHour{
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+#pickupMinute{
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+#form-time {
+    position: relative;
+}
+.rw-date-time-picker{
+    top: -40px;
+    position: absolute;
+    left: -76px;
+}
+.rw-time-picker__confirm {
+    background: #07c;
+    color: #fff;
+    padding: 6px 20px;
+    border-radius: 5px;
+}
+.rw-date-time-picker{
+    display: none;
+}
+#comfirm-button:hover{
+    color:#fff;
+    cursor: pointer;
+}
+#hour{
+    background: #fff;
+}
+#time{
+    background: #fff;
+}
+#hour:hover{
+    cursor: pointer;
+}
+#time:hover{
+    cursor: pointer;
+}
+#date_end_row{
+    display: none;
+}
+.mcalendar{
+    color:#f8821f;
+    font-size: 20px;
+}
+.mtime {
+    color: #02bd6e;
+    font-size: 20px;
+}
+
+.button-tour {
+    padding: 10px 0px;
+    text-align: center;
+    margin: 10px 0px;
+}
+.button-tour a {
+    font-weight: bold;
+    color: #fff;
+    font-size: 13px;
+}
+.button-tour:hover{
+    background: #F5AA06;
+}
+.ha-noi {
+    cursor: pointer;
+    background: #009355;
+}
+.nha-trang {
+    cursor: pointer;
+    background: #e74c3c;
+}
+.da-nang {
+    cursor: pointer;
+    background: #5BB90C;
+}
+.ho-chi-minh {
+    cursor: pointer;
+    background: #0971C0;
+}
+
+.tour-content{
+    background: #fcf8e3;
+    margin-bottom: 10px;
+    border: 1px solid #009355;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 10px;
+    box-shadow: 0 9px 12px 3px rgba(72, 13, 13, 0.06);
+}
+.content-info2{
+    padding-left: 38px;
+}
+.order-car-mobile{
+    display: none;
+}
+.send-mobile{
+    display: none;
+}
+@media only screen and (max-width: 768px){
+    .send-mobile{
+        display: block;
+    }
+    .send-pc{
+        display: none;
+    }
+    .order-car-pc{
+        display: none;
+    }
+    .order-car-mobile{
+        display: block;
+    }
+    .img-car-name{
+        left: 0;
+        font-size: 11px !important;
+        bottom: -50px !important;
+    }
+    .img-car{
+        height: 65px !important;
+    }
+    .sort-car {
+        width: 45% !important;
+    }
+    .banner{
+        /*background: url(/upload/images/banner.jpg);*/
+    }
+    .div_slogan p{
+        display: none;
+    }
+    #jssor_1 {
+        display: none;@
+    }
+    #content-booking{
+        margin-right: 0px;
+    }
+    .tour-content {
+        margin-top: 30px;
+    }
+    #home {
+        margin-top: 30px;
+    }
+    #myTabContentCar {
+        margin-top: 0px;
+    }
+    #content-booking {
+        width: 100%;
+    }
+    .form-group {
+        margin-bottom: 0px;
+        padding-left: 0px !important;
+        padding-right: 0px;
+    }
+    #send-order {
+        margin-top: 15px;
+    }
+    .rw-date-time-picker {
+        left: 0px;
+        z-index: 999;
+    }
+    #send {
+        text-align: center;
+    }
+}
+.sort-car select{
+    width: 100%;
+    border:1px solid #009355;
+}
+.sort-car{
+    margin-right: 10px;
+    float: left;
+    width: 30%;
+    padding-bottom: 10px;
+}
+.car_vip{
+    margin-top: 10px;
+    text-align: center;
+    color: #f5001b;
+}
+.review_car{
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #f5aa06;
+    border: 1px solid #f5aa06;
+    margin-top: 5px;
+}
+.review_car:hover{
+    background: #fff;
+    border: 1px solid #009355;
+    color:#009355
+}
+.rw-date-time-picker {
+    top: -65px;
+    position: absolute;
+    left: -131px;
+}
+.img-car {
+    width: 150px;
+}
+.name-car{
+    color: #00363d;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+.price-car{
+    color: #f5001b;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.customer-rating span{
+    color:#f0ca00;
+}
+.note-car span {
+    color:#42B72A;
+}
+.note{
+    font-size: 13px;
+    text-align: center;
+    font-style: italic;
+    padding: 20px 5px 0px 5px;
+}
+.order-car input{
+    border-radius: 5px 5px 5px 5px;
+    color: #fff;
+    /*padding: 10px 30px;*/
+    padding: 6px 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #009355;
+    border: 1px solid #009355;
+}
+.order-car input:hover{
+    background: #fff;
+    border: 1px solid #009355;
+    color: #009355;
+}
+.product-item{
+    float: right;
+    margin-bottom: 10px;
+    border: 1px solid #009355;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px 10px;
+    box-shadow: 0 9px 12px 3px rgba(72, 13, 13, 0.06);
+}
+.product-item:hover{
+    border: 1px solid #F5AA06;
+}
+.view-place-order{
+    background: #f3f3f3;
+    float: left;
+    padding: 10px 10px;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 9px 12px 3px rgba(72, 13, 13, 0.06);
+}
+.order-car{
+    text-align: center;
+}
+.view-place-order h4{
+    padding: 0px 10px 10px 10px;
+    color: #009355;
+    font-size: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+}
+.mcalendar{
+    color:#f8821f;
+    font-size: 20px;
+}
+.mtime {
+    color: #02bd6e;
+    font-size: 20px;
+}
+#send-order:hover{
+    background: #F5AA06;
+    border: 1px solid #F5AA06;
+}
+.ui-menu .ui-menu-item-wrapper {
+    padding: 5px 1em 5px .4em !important;
+    font-size: 14px;
+}
+#place_start_name {
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+#place_end_name {
+    border-bottom-left-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+}
+.pick_start {
+    position: relative;
+}
+.pick-icon-start {
+    position: absolute;
+    right: 1px;
+    top: 3px;
+    cursor: pointer;
+    padding: 6px 6px;
+    z-index: 99;
+    background: #fff;;
+}
+.pick-icon-end {
+    position: absolute;
+    right: 50px;
+    top: 3px;
+    cursor: pointer;
+    padding: 6px 6px;
+    z-index: 99;
+    background: #fff;
+}
+@media only screen and (max-width: 768px){
+
+    #home_booking_form {
+        padding-top: 10px;
+    }
+    .slogan_taxigo {
+        margin-top: 0px !important ;
+    }
+    .slogan_taxigo h2 {
+        font-size: 16px;
+    }
+    .slogan_taxigo h4 {
+        font-size: 14px;
+    }
+    #form-time {
+        margin-left: 25px;
+    }
+    .note {
+        font-size: 13px;
+        text-align: center;
+        font-style: italic;
+        padding: 5px 5px 0px 5px;
+    }
+    .img-car {
+        margin-top: 15px;
+        padding: 0;
+        width: 87px;
+    }
+    .name-car {
+        color: #00363d;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .content-car{
+        padding: 0px;
+    }
+    .customer-rating span{
+        margin-right: 0px;
+    }
+    .note-car{
+        font-size: 12px;
+    }
+    .price-car {
+        font-size: 12px;
+    }
+    .content-info{
+        padding: 0px 5px;
+    }
+    .order-car {
+        padding: 5px;
+    }
+    .order-car input {
+        font-size: 11px;
+        padding: 8px 12px;
+    }
+    .row_view {
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+    #form-date {
+        padding-right: 0px;
+    }
+    #send {
+        text-align: center;
+    }
+    .rw-date-time-picker {
+        left: 0px;
+        z-index: 999;
+    }
+
+
+}
+#popup-review .modal-header {
+    border-bottom: none;
+}
+#popup-review .slide-review{
+    margin: 15px 0px;
+}
+#popup-review .img-review{
+    /*max-height: 150px;*/
+}
+#popup-review .modal-header .close {
+    margin-top: -20px;
+}
+#popup-review .modal-footer{
+    text-align: center;
+}
+#popup-review{
+    z-index: 99999;
+}
+#review_car{
+    opacity: 1;
+}
+.row-comment{
+    border: 1px solid #009355;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px;
+    border-radius: 5px 5px;
+}
+.comment{
+    font-style: italic;
+}
+.fa-car{
+    color: black !important;
+}
+.fa-paper-plane-o{
+    color: red !important;
+}
+.fa-calendar{
+    color: #0400ff !important;
+}
+.fa-check-square{
+    color: #009355 !important;
+ }
+
+.img-review img{
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    margin: 0 auto;
+}
+.slogan_taxigo{
+    margin-top: 0px;
+    color:#fff;
+    margin-left: 10px;
+}
+.slogan_taxigo p{
+    font-size: 16px;
+}
+.swap-address:hover{
+    cursor: pointer;
+}
+.swap-address{
+    padding: 0px 12px !important;
+}
+.swap-address svg, .more-address svg {
+    color: #009355;
+}
+.jss1 {
+    fill: currentColor;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    font-size: 24px;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    user-select: none;
+    flex-shrink: 0;
+}
+

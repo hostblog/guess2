@@ -1,0 +1,23 @@
+
+.result-place-search {
+    position: absolute;
+    max-width: 500px;
+    -webkit-box-shadow: 0 0 10px #fff;
+    background: #fff;
+    z-index: 9;
+    box-shadow: 0 0 10px #c1c1c1;
+}
+
+.result-place-search p {
+    border-bottom: 0.5px solid #dadada;
+    margin-bottom: 0px;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 3px 3px;
+}
+#result-place-search p:last-child {
+    border-bottom: none;
+}
+.pick-icon-end {
+    z-index: 0 !important;
+}
